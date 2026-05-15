@@ -119,7 +119,7 @@ if not st.session_state.logged_in:
 @st.cache_data
 def load_data():
 
-    df = pd.read_csv("CyberNova_SalesLog.csv")
+    df = pd.read_csv("CYBER_NOVA_MAATLA/CyberNova_SalesLog.csv")
     
     # Clean column names
     df.columns = df.columns.str.strip()
